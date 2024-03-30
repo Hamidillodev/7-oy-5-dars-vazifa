@@ -1,3 +1,5 @@
+import footer_img from '/Frame 2614.png'
+
 const Footer = () => {
     return (
         <>
@@ -26,7 +28,7 @@ const Footer = () => {
                     </div>
                 </div>
                 </div>
-                <div className="">
+                <div className="gap-20">
                     <div className="">
                             <h2>Сервис</h2>
                             <div className="text-lime-500">
@@ -34,9 +36,9 @@ const Footer = () => {
                                 <h2>Личный кабинет</h2>
                             </div>
                     </div>
-                    <div className="">
-                        <h2></h2>
-                        <div>
+                    <div className="pt-6">
+                        <h2>Документы</h2>
+                        <div className="text-lime-500">
                             <h2>Пользовательское соглашение Qugo</h2>
                             <h2>Политика о данных</h2>
                             <h2>Соглашение Qugo с Заказчиком</h2>
@@ -44,7 +46,9 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className=""></div>
+                <div className="">
+                    <img src={footer_img} alt="" />
+                </div>
             </div>
             <div className=""></div>
         </>

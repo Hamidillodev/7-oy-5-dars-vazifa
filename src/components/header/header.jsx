@@ -4,9 +4,6 @@ const Header = () => {
     return (
         <>
             <header>
-                <div>
-                    <div></div>
-                </div>
                 <Navbar />
             </header>
         </>
